@@ -1,12 +1,12 @@
-local game = require("garden.game")
-local animations = require("garden.animations")
+local game = require("idle-garden.game")
+local animations = require("idledle--garden.animations")
 
 local commands = {}
 
 local function plant()
 	-- Clean up any existing game state
 	game.cleanup()
-	
+
 	-- Create a new scratch buffer for the game
 	game.state.buf = vim.api.nvim_create_buf(false, true)
 	vim.api.nvim_set_current_buf(game.state.buf)

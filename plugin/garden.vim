@@ -3,4 +3,4 @@ if exists("g:loaded_garden")
 endif
 let g:loaded_garden = 1
 
-lua require('garden')
+lua require('idle-garden')
