@@ -1,5 +1,5 @@
 local game = require("idle-garden.game")
-local animations = require("idledle-garden.animations")
+local animations = require("idle-garden.animations")
 
 local commands = {}
 
